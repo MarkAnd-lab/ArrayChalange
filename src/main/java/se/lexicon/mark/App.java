@@ -15,7 +15,8 @@ public class App{
         System.out.println( "Array Challenge 99" );
 
         int[] myIntegers = getIntegers(5);
-
+        int[] sorted = sortIntegers(myIntegers);
+        printArray(sorted);
     }
     public static int[]getIntegers(int capacity){
         int []array = new int[capacity];
@@ -51,6 +52,9 @@ public class App{
                 }
             }
         }
+        return sortedArray;
+    }
+}
         return sortedArray;
     }
 }
