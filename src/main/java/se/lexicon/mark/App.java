@@ -55,6 +55,4 @@ public class App{
         return sortedArray;
     }
 }
-        return sortedArray;
-    }
-}
+
